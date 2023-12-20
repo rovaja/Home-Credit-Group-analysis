@@ -47,6 +47,9 @@ The Home Credit group dataset is preprocessed and aggregated using CustomTransfo
 - XGBoost
 - LightGBM
 - CatBoost
+- Streamlit
+- Google Cloud Platform (GCP)
+- Docker
 
 ## Source
 - [Home Credit Group Dataset](https://www.kaggle.com/c/home-credit-default-risk)
