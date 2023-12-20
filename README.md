@@ -25,7 +25,7 @@ The analysis is divided into four parts:
 - Fourth part concentrates on model deployment
     - The objective in this part is to deploy the model into production. 
 	
-For parts 1 to 3 there are separate notebooks showing the process, but for part four there are only source codes provided for deployed model and streamlit app. The models are deployed using custom docker containers. The source codes for these containers are provided in CustomContainer folder.  The source code for the application is provided in DefaultClfApp folder without the GCP service-key json file.
+For parts 1 to 3 there are separate notebooks showing the process, but for part four there are only source codes provided for deployed model and streamlit app. The models are deployed using custom docker containers. The source codes for these containers are provided in CustomContainer folder. The source code for the application is provided in DefaultClfApp folder without the GCP service-key json file.
 
 
 The Home Credit group dataset is preprocessed and aggregated using CustomTransformer class and its child classes for each table. The source code for these classes is in files:
@@ -62,7 +62,7 @@ The Home Credit group dataset is preprocessed and aggregated using CustomTransfo
    - External sources (possibly indicating credit score) also play a significant role in prediction.
 
 3. **Model Performance:**
-   - The chosen model, a CatBoost classifier with feature selection, achieved a good performance with an area under the ROC curve (AUC) of 0.794.
+   - The chosen model, a CatBoost classifier with feature selection, achieved a good performance with the ROC AUC of 0.794.
    - The model's primary objective is to minimize false negatives (risky applicants classified as not risky), with a threshold set at 0.4.
 
 4. **Model Interpretability:**
